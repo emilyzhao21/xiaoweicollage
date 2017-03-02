@@ -1,0 +1,135 @@
+		*{
+			margin :0;
+			padding:0;
+		}
+		body
+		{
+			background-color: #DEDEDE;
+			font-family: Microsoft YaHei;
+		}
+		.header
+		{
+			background-color: #333333;
+			height:60px;
+		}
+		.header .logo
+		{
+			width:126px;
+			height:60px;
+			float:left;
+			padding-left:30px;
+		}
+		.header .list ul
+		{
+			list-style-type:none;
+		}
+		.header .list ul li 
+		{
+			float:right;
+			padding:10px;
+			text-align:center;
+			line-height: 60px;
+		}
+		.header .list ul li a
+		{
+			text-decoration: none;
+			color:white;
+		}
+		.article
+		{
+			border:1px solid gray;
+			background-color:white;
+			margin:20px;
+			text-indent: 2em;
+			padding:40px;
+		}
+		.article p 
+		{
+			margin:20px;
+		}
+		.article h3,h4
+		{
+			color:#5C5F64;
+		}
+		.article ul
+		{
+			list-style-type:none;
+		}
+		.article .picture
+		{
+			width:300px;
+			height:300px;
+			border:1px solid gray;
+			margin:5px;
+			padding:0 100px;
+		}
+		.article .picture img
+		{
+			width:300px;
+			height:200px;
+		}
+		.article ol li
+		{
+			list-style-position:inside;
+			text-indent: 2em;
+		}
+		.article table 
+		{
+			width: 1225px;
+    		height: 134px;
+    		border-collapse:collapse;
+		}
+		.article table tr th
+		{
+			background-color:black;
+			color:white;
+		}
+		.article table tr.last
+		{
+			background-color:gray;
+		}
+		.footer
+		{
+			border:1px solid gray;
+			background-color:white;
+			margin:20px;
+			padding:5px;
+		}
+		.footer h3
+		{
+			border-left:4px solid gray;
+		}
+		.footer .content
+		{
+			height:140px;
+			margin:0 300px;
+			padding-top:5px;
+		}
+		.footer .content p
+		{
+			margin:5px;
+			padding-top:5px;
+		}
+		.footer .content .tishi
+		{
+			color:gray;
+			font-size:10px;
+			padding-left:150px;
+
+		}
+		.footer .content2
+		{
+			padding-left:400px;
+			margin:30px;
+			margin-top:10px;
+		}
+		.footer .submit
+		{
+			width:1200px;
+			margin:0 auto;
+		}
+		.header h5 
+		{
+			text-align:center;
+			line-height:60px;
+		}
