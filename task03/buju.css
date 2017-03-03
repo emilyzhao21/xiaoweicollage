@@ -1,0 +1,42 @@
+*{margin:0;padding:0;}
+.content
+{
+	background-color: #eee;
+	border:1px solid #999;
+	padding:20px;
+	margin:50px;
+	overflow: hidden;
+}
+.content .right
+{
+	border:1px solid #999;
+	width:80px;
+	padding:20px;
+	background-color:white;
+	float:right;
+}
+.content  .right img
+{
+	border:1px solid #999;
+	margin-top:10px;
+}
+.content .left
+{
+	border:1px solid #999;
+	width:138px;
+	background-color:white;
+	padding:20px;
+	margin-right:20px;
+	float:left;
+}
+.content .center
+{
+	border:1px solid #999;
+	background-color:white;
+	padding:20px;
+	margin:0 200px 0 250px;
+}
+.content .center p
+{
+	text-indent: 2em;
+}
